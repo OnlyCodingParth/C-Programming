@@ -1,0 +1,18 @@
+// Program: Demonstrate relational operators and their 0 or 1 results.
+
+#include <stdio.h>
+
+int main(void)
+{
+    int a = 10;
+    int b = 3;
+
+    printf("a > b: %d\n", a > b);
+    printf("a < b: %d\n", a < b);
+    printf("a >= b: %d\n", a >= b);
+    printf("a <= b: %d\n", a <= b);
+    printf("a == b: %d\n", a == b);
+    printf("a != b: %d\n", a != b);
+
+    return 0;
+}
